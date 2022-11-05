@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "a a b"
+                         "c d b"
+                         "e e e";
+    background-color: lightblue;
+    font-size: 48px;
+}
+
+.item {
+    border: 4px solid black;
+}
+
+.item1 {
+    grid-area: a;
+}
+
+.item2 {
+    grid-area: b;
+}
+
+.item5 {
+    grid-area: e;
+}
